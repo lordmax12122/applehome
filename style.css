@@ -1,0 +1,124 @@
+.pages_list {
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.pages-link {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+body {
+    background-color: black;
+    padding-top: 100px;
+}
+
+.pages-link2 {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.pages_list2 {
+    display: flex;
+    justify-content: start;
+    gap: 25px;
+    list-style: none;
+    margin-right: 40px;
+    margin-top: -50px;
+}
+
+.textmain {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 55px;
+    color: white;
+    margin-left: 160px;
+    margin-top: 300px;
+}
+
+.buynow {
+    display: block;
+    width: 15%;
+    font-family: 'Jost', sans-serif;
+    border: 4px solid rgb(237, 237, 255);
+    font-size: 35px;
+    background-color: rgb(241, 248, 253);
+    color: black;
+    margin-left: 300px;
+    border-radius: 4%;
+    text-decoration: none;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.iphonecard {
+    font-family: 'Jost', sans-serif;
+    color: rgb(0, 0, 0);
+    background-image: url(./images/overlapping-white-grey-gradient-circles-background.jpg);
+    background-size: cover;
+    border: 3px solid lightblue;
+    width: 219px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.iphones {
+    display: flex;
+    gap: 92px;
+    flex-wrap: wrap;
+}
+
+.price {
+    color: rgb(103, 192, 13);
+    font-weight: bold;
+}
+
+.button1 {
+    border-radius: 30%;
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    height: 30px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 100;
+}
+
+button {
+    box-shadow: 0 0 100px greenyellow,
+    0 0 25px greenyellow;
+    border: 2px solid chartreuse;
+}
+
+button:hover {
+    box-shadow: 0 0 5px,
+    0 0 25px greenyellow, 0 0 50px greenyellow,
+    0 0 100px greenyellow, 0 0 200px greenyellow
+}
+
+.watchcard {
+    font-family: 'Jost', sans-serif;
+    color: rgb(0, 0, 0);
+    background-image: url(./images/overlapping-white-grey-gradient-circles-background.jpg);
+    background-size: cover;
+    border: 3px solid lightblue;
+    width: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
