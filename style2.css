@@ -125,7 +125,8 @@ header {
 
 .about-us {
     color: white;
-    
+    display: flex;
+    align-self: flex-end;
 }
 
 @media screen and (max-width: 600px) {
@@ -138,5 +139,9 @@ header {
             height: 50px;
             top: auto;
             bottom: 0;
+    }
+    .slider-nav a {
+        width: 1px;
+        height: 1px;
     }
 }
