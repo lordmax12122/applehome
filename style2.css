@@ -127,3 +127,16 @@ header {
     color: white;
     
 }
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    header {
+            width: 100%;
+            height: 50px;
+            top: auto;
+            bottom: 0;
+    }
+}
