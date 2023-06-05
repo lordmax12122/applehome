@@ -108,7 +108,8 @@ button {
 button:hover {
     box-shadow: 0 0 5px,
     0 0 25px greenyellow, 0 0 50px greenyellow,
-    0 0 100px greenyellow, 0 0 200px greenyellow
+    0 0 100px greenyellow, 0 0 200px greenyellow;
+    
 }
 
 .watchcard {
