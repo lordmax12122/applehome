@@ -195,19 +195,19 @@ footer ul{
 footer ul li a{
     padding: 1em; 
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.904);
+    color: greenyellow;
     transition: 100ms;
 }
 footer ul li a:hover{
     box-shadow: 0 0 5px,
     0 0 25px greenyellow, 0 0 50px greenyellow,
-    0 0 100px greenyellow, 0 0 200px greenyellow
+    0 0 100px greenyellow, 0 0 200px greenyellow;
 }
 
 footer{
     width: 96.3%;
     background: #180041;
-    color: #fff; 
+    color: #ffffff; 
     display: grid;
     place-items: center;
     padding: 2em; 
@@ -216,6 +216,7 @@ footer{
     margin-left: -1px;
     margin-right: -1px;
     margin-bottom: -10px;
+    font-family: 'Jost', sans-serif;;
 }
 
 
